@@ -3,7 +3,7 @@ interface Props {
   full_description: string;
   pageHeaderBgImg: string;
   pageHeaderMinVh: string;
-  pageHeaderRadius: string;
+  pageHeaderRadius?: string;
 }
 
 export default function TestimonialsFade({
@@ -28,15 +28,36 @@ export default function TestimonialsFade({
         <div className="page-header py-5 py-md-0" style={styles.pageHeader}>
           <span className="mask bg-black opacity-6"></span>
           <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-8 col-sm-9 text-center mx-auto">
+            <div className="row">
+              <div className="col-lg-7 col-sm-8">
                 <h1 className="text-white mb-4">{title}</h1>
                 <p className="lead text-white mb-sm-6 mb-4">{full_description}</p>
-                <button className="btn btn-white btn-lg">Explore New Collection</button>
+                {/* <button className="btn btn-white btn-lg">Explore New Collection</button> */}
+              </div>
+              <div className="col-lg-5 col-sm-4">
+                <div className="container card bg-white p-4">
+                <h3 className="card-title text-center">Get Your Free Epoxy Flooring Estimate Today!</h3>
+                <form className="card-body">
+                  <div className="form-group">
+                    <input type="text" className="form-control" id="first-name" placeholder="First Name" />
+                  </div>
+                  <div className="form-group">
+                    <input type="text" className="form-control" id="last-name" placeholder="Last Name" />
+                  </div>
+                  <div className="form-group">
+                    <input type="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" />
+                  </div>
+                  <div className="form-group">
+                    <textarea className="form-control" id="content" rows={8} placeholder="How we can help you" />
+                  </div>
+                  <button type="submit" className="btn btn-primary">Submit</button>
+                </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        
       </section>
     </>
   );
