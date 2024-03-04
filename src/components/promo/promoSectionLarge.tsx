@@ -1,3 +1,4 @@
+import EmailForm from './EmailForm'
 interface Props {
   title: string;
   full_description: string;
@@ -37,21 +38,8 @@ export default function TestimonialsFade({
               <div className="col-lg-5 col-sm-4">
                 <div className="container card bg-white p-4">
                 <h3 className="card-title text-center">Get Your Free Epoxy Flooring Estimate Today!</h3>
-                <form className="card-body">
-                  <div className="form-group">
-                    <input type="text" className="form-control" id="first-name" placeholder="First Name" />
-                  </div>
-                  <div className="form-group">
-                    <input type="text" className="form-control" id="last-name" placeholder="Last Name" />
-                  </div>
-                  <div className="form-group">
-                    <input type="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" />
-                  </div>
-                  <div className="form-group">
-                    <textarea className="form-control" id="content" rows={8} placeholder="How we can help you" />
-                  </div>
-                  <button type="submit" className="btn btn-primary">Submit</button>
-                </form>
+                
+                <EmailForm />
                 </div>
               </div>
             </div>

@@ -7,6 +7,7 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import TestimonialsFade from "../components/promo/testimonialsFade";
 import PromoSectionLarge from "../components/promo/promoSectionLarge";
+import EmailForm from "../components/promo/EmailForm";
 ---
 
 <Layout title="Landing Page">
@@ -17,6 +18,7 @@ import PromoSectionLarge from "../components/promo/promoSectionLarge";
       full_description={data.products[0].full_description ?? ""}
       pageHeaderBgImg={"../images/floor1.jpg"}
       pageHeaderMinVh="80vh"
+      client:load
     />
     <div class="container my-5">
       <div class="my-5">
