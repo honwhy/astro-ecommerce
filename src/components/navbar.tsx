@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg blur border-radius-sm top-0 z-index-3 shadow position-sticky py-3 start-0 end-0">
       <div className="container px-1">
-        <a className="navbar-brand font-weight-bolder ms-lg-0 " href="/">
+        <a className="navbar-brand font-weight-bolder ms-lg-0 " href="/landing">
           <img src={`${import.meta.env.BASE_URL}logo/logo-stack.svg`} className="avatar avatar-sm me-3 " alt="logo spotify" />
           THE THUMBS UP
         </a>
@@ -46,7 +46,8 @@ const Navbar = () => {
               </a>
             </li> */}
             <li className="nav-item">
-              <button className="btn btn-primary">BOOK CONSULTATION</button>
+              {/* <button className="btn btn-primary">BOOK CONSULTATION</button> */}
+              <a className="btn btn-primary" href="/concat" role="button">BOOK CONSULTATION</a>
             </li>
           </ul>
         </div>

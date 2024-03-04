@@ -10,9 +10,9 @@ export default function Footer() {
               &nbsp;The Thumbs Up.
             </div>
           </div>
-          {/* <div className="col-lg-6">
+          <div className="col-lg-6">
             <ul className="nav nav-footer justify-content-center justify-content-lg-end">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   href="https://www.creative-tim.com"
                   className="nav-link text-sm text-muted"
@@ -20,17 +20,17 @@ export default function Footer() {
                 >
                   Creative Tim
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com/presentation"
+                  href="/about"
                   className="nav-link text-sm text-muted"
                   target="_blank"
                 >
                   About Us
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   href="https://www.creative-tim.com/blog"
                   className="nav-link text-sm text-muted"
@@ -47,9 +47,9 @@ export default function Footer() {
                 >
                   License
                 </a>
-              </li>
+              </li> */}
             </ul>
-          </div> */}
+          </div>
         </div>
       </footer>
     </>

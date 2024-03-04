@@ -30,8 +30,8 @@ export default function TestimonialsFade({
           <div className="container">
             <div className="row">
               <div className="col-lg-7 col-sm-8">
-                <h1 className="text-white mb-4">{title}</h1>
-                <p className="lead text-white mb-sm-6 mb-4">{full_description}</p>
+                <h1 className="text-white mb-4">Thumbs Up Company Profile</h1>
+                <p className="lead text-white mb-sm-6 mb-4">Thumbs Up is a professional company specializing in industrial-grade materials such as Epoxy and Polyaspartic for flooring services in Vancouver and the surrounding areas.</p>
                 {/* <button className="btn btn-white btn-lg">Explore New Collection</button> */}
               </div>
               <div className="col-lg-5 col-sm-4">
